@@ -1,0 +1,80 @@
+{
+  "users": [
+    {
+      "user_id": "student_001",
+      "name": "Demo Student",
+      "preferences": {
+        "hours_per_day": 6,
+        "sleep_start": "23:30",
+        "sleep_end": "06:30"
+      }
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "77ae87a5-dc89-4f0f-ba36-1b388d44cac7",
+      "title": "Linear Algebra \u2013 Eigenvalues",
+      "type": "exam_topic",
+      "due_date": "2026-01-10",
+      "estimated_minutes": 120,
+      "priority": 5,
+      "status": "todo",
+      "created_at": "2026-01-01T18:52:35.402833"
+    },
+    {
+      "task_id": "5de05354-6ffc-4a35-a1af-9ac5847f2bd9",
+      "title": "DSA Trees",
+      "type": "exam_topic",
+      "due_date": "2026-01-04",
+      "estimated_minutes": 120,
+      "priority": 5,
+      "status": "todo",
+      "created_at": "2026-01-02T05:32:09.158447"
+    }
+  ],
+  "daily_plans": {
+    "2026-01-02": [
+      {
+        "task_id": "5de05354-6ffc-4a35-a1af-9ac5847f2bd9",
+        "title": "DSA Trees",
+        "duration_minutes": 120,
+        "note": "Focus block for exam_topic (priority 5)"
+      },
+      {
+        "task_id": "77ae87a5-dc89-4f0f-ba36-1b388d44cac7",
+        "title": "Linear Algebra \u2013 Eigenvalues",
+        "duration_minutes": 120,
+        "note": "Focus block for exam_topic (priority 5)"
+      }
+    ]
+  },
+  "progress_logs": [
+    {
+      "task_id": "77ae87a5-dc89-4f0f-ba36-1b388d44cac7",
+      "status": "skipped",
+      "minutes_spent": 0,
+      "date": "2026-01-01T18:52:35.403294",
+      "reason": "User inactive"
+    }
+  ],
+  "agent_actions": [
+    {
+      "timestamp": "2026-01-01T18:52:35.403593",
+      "action_type": "replan",
+      "rationale": "User skipped high-priority topic, exam in 3 days",
+      "diff": "Moved Eigenvalues to tomorrow morning slot"
+    },
+    {
+      "timestamp": "2026-01-02T05:37:56.325319",
+      "action_type": "suggest",
+      "rationale": "Generated plan for 2026-01-02 using urgency + priority ranking",
+      "diff": "Planned 2 focus blocks"
+    },
+    {
+      "timestamp": "2026-01-02T05:43:32.294724",
+      "action_type": "suggest",
+      "rationale": "Generated plan for 2026-01-02 using urgency + priority ranking",
+      "diff": "Planned 2 focus blocks"
+    }
+  ]
+}
